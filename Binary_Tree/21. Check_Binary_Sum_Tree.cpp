@@ -18,6 +18,7 @@ public:
 
         if (lh + rh != node->data && lh + rh != 0)
             flag = false;
+
         sum = lh + rh + node->data;
 
         return sum;
